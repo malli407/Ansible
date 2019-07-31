@@ -1,0 +1,5 @@
+---
+   - hosts: all
+   - tasks:
+     - name: checking for node ping or not
+       action: ping
